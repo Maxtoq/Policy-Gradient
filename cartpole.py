@@ -99,7 +99,7 @@ class ReinforceAgent(object):
                 G = 0.0
                 for k in range(j, len(rewards)):
                     G += rewards[j] * self.dr ** k
-                # Compute policy loss
+                # Compute policy loss ((-1) * L, because we're doing gradient ascent)
                 loss = -log_probs[j] * G
                 policy_loss.append(loss)
 
