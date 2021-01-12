@@ -32,9 +32,6 @@ pyzmq==20.0.0
 scipy==1.6.0
 six==1.15.0
 toml==0.10.2
-torch==1.7.1+cpu
-torchaudio==0.7.2
-torchvision==0.8.2+cpu
 tornado==6.1
 traitlets==5.0.5
 typing-extensions==3.7.4.3
